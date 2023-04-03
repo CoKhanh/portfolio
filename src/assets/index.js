@@ -29,6 +29,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import solidity from "./tech/solidity.png";
+import nextjs from './tech/nextjs.ico';
+import postgresql from './tech/postgresql.png';
+import mui from './tech/mui.svg';
+import reactquery from './tech/reactquery.svg';
+import csharp from './tech/csharp.svg';
+import unity from './tech/unity.svg';
 
 export {
   logo,
@@ -59,4 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  solidity,
+  nextjs,
+  postgresql,
+  mui,
+  reactquery,
+  csharp,
+  unity,
 };

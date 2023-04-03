@@ -10,11 +10,7 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
   mongodb,
-  git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -22,7 +18,12 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  solidity,
+  postgresql,
+  mui,
+  reactquery,
+  csharp,
+  unity,
 } from "../assets";
 
 export const navLinks = [
@@ -77,8 +78,20 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "C #",
+    icon: csharp,
+  },
+  {
+    name: "Solidity",
+    icon: solidity,
+  },
+  {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Unity",
+    icon: unity,
   },
   {
     name: "Redux Toolkit",
@@ -89,28 +102,20 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Material UI",
+    icon: mui,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PostGresQL",
+    icon: postgresql,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Tanstack Query",
+    icon: reactquery,
   },
 ];
 
