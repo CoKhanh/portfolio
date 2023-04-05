@@ -27,7 +27,15 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import agoran from "./agoran.png";
+import raramuri from "./raramuri.png";
+import raramuriunity from "./raramuri-unity.png";
+import idamura from "./idamura.png";
+import digiland from "./digiland.png";
+import redirect from "./redirect.png";
 import jobit from "./jobit.png";
+import ballgravity from "./ballgravity.png";
+import happbubbles from "./happbubbles.png";
 import tripguide from "./tripguide.png";
 import solidity from "./tech/solidity.png";
 import nextjs from './tech/nextjs.ico';
@@ -73,4 +81,12 @@ export {
   reactquery,
   csharp,
   unity,
+  agoran,
+  raramuri,
+  raramuriunity,
+  idamura,
+  digiland,
+  redirect,
+  ballgravity,
+  happbubbles,
 };

@@ -24,6 +24,13 @@ import {
   reactquery,
   csharp,
   unity,
+  agoran,
+  raramuri,
+  raramuriunity,
+  idamura,
+  digiland,
+  ballgravity,
+  happbubbles,
 } from "../assets";
 
 export const navLinks = [
@@ -203,49 +210,78 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "NFT Marketplace",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "apollograpql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mui",
         color: "pink-text-gradient",
       },
+      {
+        name: "etherjs",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: agoran,
+    source_code_link: "https://agoran.io/",
   },
   {
-    name: "Job IT",
+    name: "Raramuri",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tanstackquery",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: raramuri,
+    source_code_link: "https://raramuri.io/",
+  },
+  {
+    name: "Running live track 3D",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "readyplayerme",
+        color: "green-text-gradient",
+      },
+      {
+        name: "unitymapbox",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: raramuriunity,
+    source_code_link: "https://raramuri.io/events/binhduong-hm-2023/?tab=live",
   },
   {
-    name: "Trip Guide",
+    name: "Digital Universe Tech",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -254,16 +290,62 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "scss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "etherjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: digiland,
+    source_code_link: "https://digiland.kardiachain.io/",
+  },
+  {
+    name: "Happy Bubbles",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "canvas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: happbubbles,
+    source_code_link: "https://cokhanh-bubble.netlify.app/",
+  },
+  {
+    name: "Ball with Gravity",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "canvas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ballgravity,
+    source_code_link: "https://cokhanh-ball-gravity.netlify.app/",
   },
 ];
 
