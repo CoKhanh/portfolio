@@ -143,7 +143,7 @@ const experiences = [
     date: "March 2020 - Jul 2020",
     points: [
       "Learning and developing RESTful-API using Lumen Laravel Framework.",
-      "Communicating with team to match the solution between Back End and Front End.",
+      "Communicating with team to match the solutions between Back End and Front End.",
     ],
   },
   {
@@ -240,7 +240,7 @@ const projects = [
   {
     name: "NFT Marketplace",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A marketplace for NFTs that enables users to list, view and exchange their GameFi (My DefiPet, Mytheria, OVL, etc.) items.",
     tags: [
       {
         name: "nextjs",
@@ -265,7 +265,7 @@ const projects = [
   {
     name: "Raramuri",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The first hybrid race of its kind, allows you to focus on what you love and do best in the physical world: Running while greatly augmenting your experience in the shared virtual one.",
     tags: [
       {
         name: "nextjs",
@@ -290,7 +290,7 @@ const projects = [
   {
     name: "Running live track 3D",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Raramuri module that feeds races taking place in the real world to the virtual one enables spectators and organizers to follow and cheer on their friends as they compete in real time from actual locations.",
     tags: [
       {
         name: "unity",
@@ -311,7 +311,7 @@ const projects = [
   {
     name: "Digital Universe Tech",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An online application that enhances the visual aspects of users' web3 wallets. Each character in a wallet address is represented by a piece of land; the color and shape of the users' land depends on their blockchain activity.",
     tags: [
       {
         name: "nextjs",
@@ -336,7 +336,7 @@ const projects = [
   {
     name: "Happy Bubbles",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A personal project that generates a couble of bubble with scaling motion in the user's mouse radius using only HTML Canvas and Javascript.",
     tags: [
       {
         name: "html",
@@ -357,7 +357,7 @@ const projects = [
   {
     name: "Ball with Gravity",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    "A personal project that generates a couble of ball with gravity effect using only HTML Canvas and Javascript.",
     tags: [
       {
         name: "html",
