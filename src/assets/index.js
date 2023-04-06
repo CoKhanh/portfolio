@@ -25,6 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import tanca from "./company/tanca.png";
+import alphawolf from "./company/alphawolf.jpeg";
+import bosch from "./company/bosch.jpeg";
+import kardiachain from "./company/kardiachain.svg";
 
 import carrent from "./carrent.png";
 import agoran from "./agoran.png";
@@ -89,4 +93,8 @@ export {
   redirect,
   ballgravity,
   happbubbles,
+  tanca,
+  alphawolf,
+  bosch,
+  kardiachain,
 };
