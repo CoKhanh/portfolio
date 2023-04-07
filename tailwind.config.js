@@ -21,6 +21,26 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      animation: {
+        typing: `
+          typing 3.5s steps(200, end),
+          blink-caret .5s step-end infinite;
+        `,
+      },
+      keyframes: {
+        typing: {
+          "0%": { width: 0 },
+          "100%": { width: "100%" }
+        },
+        "blink-caret": {
+          "0%, 100%": {
+            "border-color": "transparent",
+          },
+          "50%": {
+            "border-color": "#915eff",
+          }
+        }
+      }
     },
   },
   plugins: [],

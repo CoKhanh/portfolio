@@ -20,8 +20,8 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient"></div>
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm&nbsp;<span className="text-[#915eff]">Co Khanh</span>
+          <h1 className={`${styles.heroHeadText} text-white animate-typing overflow-hidden whitespace-nowrap border-r-8 pr-[10px]`}>
+            Hi, I'm <span className="text-[#915eff]">Co Khanh</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop 3D visual on Unity, user <br className="sm:block hidden" />
