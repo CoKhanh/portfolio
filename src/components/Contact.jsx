@@ -37,6 +37,7 @@ const Contact = () => {
       '6Wwd3JzqbQZfQJDYO'
     )
     setIsLoading(false)
+    alert('Sent Email')
   }
 
   return (
