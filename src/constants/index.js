@@ -35,6 +35,7 @@ import {
   alphawolf,
   bosch,
   kardiachain,
+  nomion,
 } from "../assets";
 
 export const navLinks = [
@@ -374,6 +375,31 @@ const projects = [
     ],
     image: ballgravity,
     source_code_link: "https://cokhanh-ball-gravity.netlify.app/",
+  },
+  {
+    name: "Nomion",
+    description:
+    "A comprehensive solution using blockchain technology to digitize physical products, helping Vietnamese brands",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NextJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: nomion,
+    source_code_link: "https://nomion.io/",
   },
 ];
 

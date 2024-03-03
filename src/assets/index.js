@@ -48,6 +48,7 @@ import mui from './tech/mui.svg';
 import reactquery from './tech/reactquery.svg';
 import csharp from './tech/csharp.svg';
 import unity from './tech/unity.svg';
+import nomion from './nomion.png';
 
 export {
   logo,
@@ -97,4 +98,5 @@ export {
   alphawolf,
   bosch,
   kardiachain,
+  nomion,
 };
