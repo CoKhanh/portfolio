@@ -43,7 +43,7 @@ const About = () => {
         I'm a skilled software engineer with
         experience in TypeScript and
         Javascript, Solidity, and expertise in frameworks
-        like React, NextJS, and Unity. I'm a quick learner and
+        like React, NextJS, and ThreeJS. I'm a quick learner and
         collaborate with the teams member, clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together

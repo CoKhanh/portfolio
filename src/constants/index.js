@@ -11,13 +11,6 @@ import {
   redux,
   tailwind,
   mongodb,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   solidity,
   postgresql,
   mui,
@@ -27,8 +20,6 @@ import {
   agoran,
   raramuri,
   raramuriunity,
-  idamura,
-  digiland,
   ballgravity,
   happbubbles,
   tanca,
@@ -36,6 +27,8 @@ import {
   bosch,
   kardiachain,
   nomion,
+  galerio,
+  wizpix,
 } from "../assets";
 
 export const navLinks = [
@@ -63,7 +56,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Unity Developer",
+    title: "3D Developer",
     icon: mobile,
   },
   {
@@ -239,7 +232,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "NFT Marketplace",
+    name: "Agoran",
     description:
       "A marketplace for NFTs that enables users to list, view and exchange their GameFi (My DefiPet, Mytheria, OVL, etc.) items.",
     tags: [
@@ -310,71 +303,85 @@ const projects = [
     source_code_link: "https://raramuri.io/events/binhduong-hm-2023/?tab=live",
   },
   {
-    name: "Digital Universe Tech",
+    name: "Wizpix",
     description:
-      "An online application that enhances the visual aspects of users' web3 wallets. Each character in a wallet address is represented by a piece of land; the color and shape of the users' land depends on their blockchain activity.",
+      "A tool helps running race organizer classify their runners' images by AI facial recognition",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "scss",
+        name: "tanstackquery",
         color: "green-text-gradient",
       },
       {
-        name: "etherjs",
+        name: "webworker",
         color: "pink-text-gradient",
       },
       {
-        name: "axios",
+        name: "tailwind",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "optimization",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wizpix,
+    source_code_link: "https://wizpix.io/",
+  },
+  {
+    name: "Galerio",
+    description:
+      "A 3D exhibition room of Nguyen Dynasty royal antiques in collaboration with the Hue Monuments Conservation Center",
+    tags: [
+      {
+        name: "threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "blender",
         color: "orange-text-gradient",
       },
     ],
-    image: digiland,
-    source_code_link: "https://digiland.kardiachain.io/",
+    image: galerio,
+    source_code_link: "https://galerio.io/",
   },
   {
-    name: "Happy Bubbles",
+    name: "Galerio VR",
     description:
-      "A personal project that generates a couble of bubble with scaling motion in the user's mouse radius using only HTML Canvas and Javascript.",
+      "An Immersive Experience exhibition room of Nguyen Dynasty royal antiques in collaboration with the Hue Monuments Conservation Center",
     tags: [
       {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "canvas",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: happbubbles,
-    source_code_link: "https://cokhanh-bubble.netlify.app/",
-  },
-  {
-    name: "Ball with Gravity",
-    description:
-    "A personal project that generates a couble of ball with gravity effect using only HTML Canvas and Javascript.",
-    tags: [
-      {
-        name: "html",
+        name: "webxr",
         color: "blue-text-gradient",
       },
       {
-        name: "canvas",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
+      {
+        name: "applevision",
+        color: "orange-text-gradient",
+      },
     ],
-    image: ballgravity,
-    source_code_link: "https://cokhanh-ball-gravity.netlify.app/",
+    image: galerio,
+    introVideo: "/video/DemoAPV.webm",
+    clip: "https://drive.google.com/file/d/1OVNqI3BXTIYrnaW8jdAYN10VUFTLrBgE/view?usp=sharing",
+    source_code_link: "https://pglxr.netlify.app/",
   },
   {
     name: "Nomion",
@@ -382,19 +389,19 @@ const projects = [
     "A comprehensive solution using blockchain technology to digitize physical products, helping Vietnamese brands",
     tags: [
       {
-        name: "ReactJS",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "NextJS",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "Typescript",
+        name: "typescript",
         color: "pink-text-gradient",
       },
       {
-        name: "ThreeJS",
+        name: "threeJS",
         color: "orange-text-gradient",
       },
     ],

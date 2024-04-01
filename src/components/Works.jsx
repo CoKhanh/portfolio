@@ -8,7 +8,7 @@ import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, clip, introVideo }) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
@@ -24,13 +24,19 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt={name}
-            className="w-full h-full object-cover rounded-2xl"
-          />
+          {!introVideo ? (
+            <img
+              src={image}
+              alt={name}
+              className="w-full h-full object-cover rounded-2xl"
+            />
+          ) : (
+            <video className="w-full h-full object-cover rounded-2xl" muted autoPlay playsInline>
+              <source src={introVideo} type='video/webm' />
+            </video>
+          )}
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex flex-col items-end gap-2 m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient gap-1 w-fit h-fit px-4 py-1 rounded-full flex justify-center items-center cursor-pointer"
@@ -38,6 +44,15 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
               <p className="font-semibold text-green-300">live</p>
             </div>
+            {clip && (
+              <div
+                onClick={() => window.open(clip, "_blank")}
+                className="black-gradient gap-1 w-fit h-fit px-4 py-1 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+                <p className="font-semibold text-green-300">video</p>
+              </div>
+            )}
           </div>
         </div>
 

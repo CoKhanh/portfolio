@@ -49,6 +49,8 @@ import reactquery from './tech/reactquery.svg';
 import csharp from './tech/csharp.svg';
 import unity from './tech/unity.svg';
 import nomion from './nomion.png';
+import galerio from './galerio.png';
+import wizpix from './wizpix.png';
 
 export {
   logo,
@@ -99,4 +101,6 @@ export {
   bosch,
   kardiachain,
   nomion,
+  galerio,
+  wizpix,
 };
